@@ -1,0 +1,24 @@
+{
+  "name": "@codefreak/homepage-docs",
+  "version": "1.0.0",
+  "description": "Code FREAK standalone docs homepage",
+  "main": "README.md",
+  "scripts": {
+    "build": "antora generate --fetch --clean antora-playbook.yml",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codefreak/docs-homepage.git"
+  },
+  "author": "Henning Kasch <henning.kasch@fh-kiel.de>",
+  "license": "AGPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/codefreak/docs-homepage/issues"
+  },
+  "homepage": "https://github.com/codefreak/docs-homepage#readme",
+  "dependencies": {
+    "@antora/cli": "^2.2.0",
+    "@antora/site-generator-default": "^2.2.0"
+  }
+}
