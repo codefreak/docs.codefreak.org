@@ -9,14 +9,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/codefreak/docs-homepage.git"
+    "url": "git+https://github.com/codefreak/docs.codefreak.org.git"
   },
   "author": "Henning Kasch <henning.kasch@fh-kiel.de>",
   "license": "AGPL-3.0-or-later",
   "bugs": {
-    "url": "https://github.com/codefreak/docs-homepage/issues"
+    "url": "https://github.com/codefreak/docs.codefreak.org/issues"
   },
-  "homepage": "https://github.com/codefreak/docs-homepage#readme",
+  "homepage": "https://github.com/codefreak/docs.codefreak.org#readme",
   "dependencies": {
     "@antora/cli": "^2.2.0",
     "@antora/site-generator-default": "^2.2.0"
