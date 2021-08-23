@@ -6,7 +6,11 @@ site:
 content:
   sources:
   - url: https://github.com/codefreak/codefreak.git
-    branches: master
+    # If you include more branches make sure you set the docs/antora.yml file "version" attribute to a distinct value.
+    # Otherwise, the build will fail with a message like "error: Duplicate nav: master@codefreak:ROOT:nav.adoc"
+    branches:
+      - master
+      - v6
     start_path: docs
 ui:
   bundle:
